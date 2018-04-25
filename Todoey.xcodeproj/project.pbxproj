@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E014DF5209047CE006B215F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E014DF4209047CE006B215F /* SwipeTableViewController.swift */; };
 		2E1F762A208BB13900714EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F7629208BB13900714EFC /* AppDelegate.swift */; };
 		2E1F762C208BB13900714EFC /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F762B208BB13900714EFC /* ToDoListViewController.swift */; };
 		2E1F762F208BB13900714EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F762D208BB13900714EFC /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E014DF4209047CE006B215F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		2E1F7626208BB13900714EFC /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1F7629208BB13900714EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E1F762B208BB13900714EFC /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				2E908A5A208E989C00F96442 /* CategoryViewController.swift */,
 				2E1F762B208BB13900714EFC /* ToDoListViewController.swift */,
+				2E014DF4209047CE006B215F /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				2E908A5B208E989C00F96442 /* CategoryViewController.swift in Sources */,
 				2E1F762C208BB13900714EFC /* ToDoListViewController.swift in Sources */,
 				2E1F762A208BB13900714EFC /* AppDelegate.swift in Sources */,
+				2E014DF5209047CE006B215F /* SwipeTableViewController.swift in Sources */,
 				2E2404BE208F442F0031AB23 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +401,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQY3736B63;
 				INFOPLIST_FILE = Todoey/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.UK.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,7 +420,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQY3736B63;
 				INFOPLIST_FILE = Todoey/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.UK.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
